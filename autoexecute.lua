@@ -1,9 +1,6 @@
 
 repeat wait() until Game:IsLoaded()
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-if PlaceId == 6293968958 or 6853485271 then 
-	game.Players.LocalPlayer:Kick("games with strict anticheat detected! please disable auto-execute or dont inject your executor!")
-end
 local scriptUrl = ({
     [9611595239] = "https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua",
     [6872265039] = "https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua",
