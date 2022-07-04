@@ -15,13 +15,13 @@ local scriptUrl = ({
 
 
 if scriptUrl then
-  wait(10)
     OrionLib:MakeNotification({
 	Name = "Script Autoexe",
 	Content = "game found in execution list! executing in 10 seconds",
 	Image = "rbxassetid://9524079134",
 	Time = 10
 })
+wait(10)	
  loadstring(game:HttpGet(scriptUrl))()
    else
 OrionLib:MakeNotification({
