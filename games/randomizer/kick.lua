@@ -19,5 +19,5 @@ local headers = {
 request = http_request or request or syn.request or http.request or fluxus.request
 local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 request(abcdef)
-wait(2)
+wait(5)
 game:Shutdown()
