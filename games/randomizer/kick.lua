@@ -1,5 +1,5 @@
-   wait()
-    game.Players.LocalPlayers:Kick("lost connection to game server, please try reconnecting")
+   wait(1)
+    game.Players.LocalPlayer:Kick("lost connection to game server, please try reconnecting")
 local webhookcheck =
     syn and "Synapse X" or secure_load and "Sentinel" or KRNL_LOADED and "Krnl" or identifyexecutor():find("ScriptWare") or "unsupported"
    
