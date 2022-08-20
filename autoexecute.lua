@@ -10,7 +10,7 @@ local scriptUrl = ({
     [292439477] = "https://raw.githubusercontent.com/VoidMasterX/strawhook/main/script.lua",
     [1962086868] = "https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Tower%20of%20Hell/Tower%20of%20Hell",
     [3461767162]  = "https://raw.githubusercontent.com/GoodB0y08/Sk1dW6r3.lua/main/init.lua",
-    [5307215810]  = "https://raw.githubusercontent.com/brokelynn/autoexec-scripts/main/games/randomizer/hi%20.lua"
+    [5307215810]  = "https://raw.githubusercontent.com/brokelynn/autoexec-scripts/main/games/randomizer/hi%20.lua",
     [6872274481] = "https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua"
 
  })[game.PlaceId]
@@ -19,11 +19,11 @@ local scriptUrl = ({
 if scriptUrl then
     lib:MakeNotification({
 	Name = "Script Autoexe",
-	Content = "game found in execution list! executing in 10 seconds",
+	Content = "game found in execution list! executing in 5 seconds",
 	Image = "rbxassetid://9524079134",
-	Time = 10
+	Time = 7
 })
-wait(10)	
+wait(5)	
  loadstring(game:HttpGet(scriptUrl))()
 else
 	lib:MakeNotification({
