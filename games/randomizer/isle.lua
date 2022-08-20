@@ -972,7 +972,7 @@ end
 
 _G.Message = Instance.new("Color3Value")
 _G.Message.Value = Color3.fromRGB(255,255,0)
-_G.Message.Name = "Welcome to krypton Remember this is still in Beta enjoy :) discord.gg/ajBfhGKyaJ"
+_G.Message.Name = "BAD OFUSCATOR EASYY"
 _G.Message.Parent = game.Players.LocalPlayer.Character["@Alerts"]
 
 
